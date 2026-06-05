@@ -1,6 +1,6 @@
 # ESP32-S3 墨水屏天气终端
 
-基于 ESP32-S3 + 7.5寸 Waveshare E-Paper 的低功耗信息显示终端，展示天气、待办事项和日程。
+基于 ESP32-S3 + 7.5寸 Waveshare E-Paper 的低功耗信息显示终端，数据源自 Home Assistant 的天气、待办事项和日程。
 
 ## 硬件
 
