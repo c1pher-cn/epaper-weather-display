@@ -39,7 +39,11 @@
 
 ### 1. ESPHome 配置
 
-复制 `esp32-epaper.yaml.example` 为 `esp32-epaper.yaml`，修改以下 Secrets：
+从 `versions/` 目录选取最新版本（当前为 [v3.yaml](./versions/v3.yaml)），复制到你的 ESPHome 配置目录（如 Docker 映射的 `/config/`），重命名如 `esp32-epaper.yaml`
+
+> 📌 建议直接使用 `versions/v3.yaml`，每次修改前请先用 `scripts/backup-version.sh` 备份（见 [SKILL.md](./references/project-readme-template.md) 工作流）。
+
+修改以下 Secrets：
 
 ```yaml
 wifi:
@@ -70,7 +74,7 @@ esphome run esp32-epaper.yaml
 
 #### 3.1 天气实体（已有则跳过）
 
-使用和风天气或其他天气集成，实体 ID 格式：`weather.xiaomi_weather`（替换为你的实际实体）。
+推荐使用本人开发的好用和风天气插件 **[c1pher-cn/heweather](https://github.com/c1pher-cn/heweather)**（支持更多气象数据、自定义位置），安装后在 HA 的 **实体** 页面找到天气实体，实体 ID 格式如 `weather.he_feng_tian_qi_2`（替换为你的实际实体）。
 
 #### 3.2 待办列表传感器
 
