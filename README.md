@@ -2,6 +2,10 @@
 
 基于 ESP32-S3 + 7.5寸 Waveshare E-Paper 的低功耗信息显示终端，数据源自 Home Assistant 的天气、待办事项和日程。
 
+<img width="5712" height="4284" alt="bdddaf470eb2745fc67cb15b2f0c10c9" src="https://github.com/user-attachments/assets/5bc7041c-7cee-47d8-8b23-12cc9133c5ad" />
+
+
+
 ## 硬件
 
 | 元件 | 型号/说明 |
