@@ -8,6 +8,8 @@
 
 ## 硬件
 
+使用的是 TRMNL 7.5" (OG) DIY Kit https://wiki.seeedstudio.com/trmnl_7inch5_diy_kit_main_page/
+
 | 元件 | 型号/说明 |
 |------|-----------|
 | 主控 | ESP32-S3 (8MB PSRAM, octal SPI) |
